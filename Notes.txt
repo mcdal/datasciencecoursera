@@ -1,20 +1,29 @@
 cd ~/Documents/Coursera
 #move to Coursera folder
+
 git init
 #initialized git repo
+
 git remote add origin https://github.com/mcdal/datasciencecoursera
 #point coursera folder at remote repo on GitHub
+
 git pull origin master 
 #pull changes down from GitHub
+
 ls
 #lists current files and folders in working directory
-owd
+
+pwd
 #print working directory
+
 mk dir NAME
 # create new folder
+
 touch NAME
 #create a file
+
 rm NAME
 #remove a file
+
 rm -r NAME
 #remove a directory
